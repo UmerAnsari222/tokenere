@@ -112,7 +112,7 @@ const BottomBar = () => {
         </li>
 
         <li>
-          <a href="#">
+          <a href="#" className="active">
             <div className="icon">
               <svg
                 width="20"
@@ -129,7 +129,7 @@ const BottomBar = () => {
                 />
               </svg>
             </div>
-            <div className="text">Setting</div>
+            <div className="text">Nft</div>
           </a>
         </li>
       </ul>
