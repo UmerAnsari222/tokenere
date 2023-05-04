@@ -33,68 +33,37 @@ body {
   font-weight: 600;
 }
 
-.center-content-container {
+.center-content-container-nft {
   width: 90%;
   margin: 0 auto;
-}
-.center-content-container .date-time {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 14.5px;
-  color: #ffffff;
-  margin-left: 20px;
-}
-.data-slot {
-  background-color: #415367;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 10px;
-  margin-top: 5px;
+  margin-top: 30px;
 }
 
-.data-slot .data-slot-content h3 {
-  font-family: Inter;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 28px;
-  letter-spacing: 0em;
-  text-align: left;
+/* .center-content-container-nft div {
+  width: 370px;
+  height: 360px;
+  padding-right: 20px;
+} */
 
-  padding: 0;
-  margin: 0;
-}
-.data-slot .data-slot-content span {
-  font-size: 10px;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0em;
-  text-align: left;
-  margin: 0;
-  color: #c4c4c4;
+.center-content-container-nft div img {
+  width: 100%;
+  height: 100%;
 }
 
-.data-slot .data-slot-price {
-  display: flex;
-  align-items: center;
-  gap: 3px;
-}
-
-.data-slot-price h3 {
-  font-family: Inter;
-  font-size: 14px;
+.center-content-container-nft div h2 {
+  font-size: 35px;
   font-weight: 600;
-  line-height: 28px;
-  letter-spacing: 0em;
-  text-align: left;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin: 10px 0;
 }
 
-.data-slot-price.loss h3 {
-  color: #e54b47;
-}
-
-.data-slot-price.win h3 {
-  color: #00ba4a;
+.center-content-container-nft div h3 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #f5c249;
+  text-transform: capitalize;
+  margin: 0;
 }
 
 .navbar-container {
@@ -218,6 +187,13 @@ body {
   margin-top: -80px;
 }
 
+.active .icon svg {
+  stroke: #f5c249;
+}
+.active .text {
+  color: #f5c249;
+}
+
 .indicator::after,
 .indicator::before {
   content: "";
@@ -289,9 +265,27 @@ body {
   }
 }
 
+@media screen and (min-width: 800px) {
+  .indicator {
+    left: 47%;
+  }
+}
+
 @media screen and (min-width: 1060px) {
   .indicator {
     left: 47.6%;
+  }
+  .center-content-container-nft div {
+    width: 370px;
+    height: 360px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+  .center-content-container-nft div h2 {
+    text-align: center;
+  }
+  .center-content-container-nft div h3 {
+    text-align: center;
   }
 }
 

@@ -6,7 +6,7 @@ import "./home1.css";
 const Home1 = () => {
   return (
     <div>
-      <TopBar />
+      {/* <TopBar /> */}
       <CenterContent />
       <BottomBar />
     </div>
