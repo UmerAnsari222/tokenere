@@ -257,17 +257,53 @@ body {
   .indicator {
     left: 45%;
   }
+  .center-content-container-nft div {
+    width: 370px;
+    height: 360px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+  .center-content-container-nft div h2 {
+    text-align: center;
+  }
+  .center-content-container-nft div h3 {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 600px) {
   .indicator {
     left: 46%;
   }
+  .center-content-container-nft div {
+    width: 370px;
+    height: 360px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+  .center-content-container-nft div h2 {
+    text-align: center;
+  }
+  .center-content-container-nft div h3 {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 800px) {
   .indicator {
     left: 47%;
+  }
+  .center-content-container-nft div {
+    width: 370px;
+    height: 360px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+  .center-content-container-nft div h2 {
+    text-align: center;
+  }
+  .center-content-container-nft div h3 {
+    text-align: center;
   }
 }
 
